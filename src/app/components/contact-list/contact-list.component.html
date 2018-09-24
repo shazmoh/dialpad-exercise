@@ -1,0 +1,6 @@
+<div class="list-container">
+  <div *ngFor="let contact of contacts" class="list-item">
+    <span class="name">{{contact.name}}</span>
+    <span class="phone">{{contact.phone | phoneFormat}}</span>
+  </div>
+</div>

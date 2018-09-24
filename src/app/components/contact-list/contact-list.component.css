@@ -1,0 +1,19 @@
+
+.list-item {
+  border-bottom: 1px solid #9AA9BB;
+  padding: 10px 20px 10px 10px;
+}
+
+.list-item span {
+  line-height: 50px;
+}
+
+.list-item .name {
+  color: black;
+  font-size: 20px;
+}
+
+.list-item .phone {
+  color: #9AA9BB;
+  font-size: 14px;
+}
